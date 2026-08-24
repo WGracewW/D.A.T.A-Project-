@@ -1,0 +1,1 @@
+The Chats folder contains model outputs in .txt format. Every study will have 2 chat outputs, one containing the full conversation history, one containing only the formatter answers for easy benchmarking.

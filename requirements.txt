@@ -1,0 +1,14 @@
+# Core pipeline
+langgraph
+langchain-core
+langchain-ollama
+pymupdf
+sentence-transformers
+numpy
+
+# Document processing / OCR (only docling is used by the active pipeline;
+# marker-pdf and paddleocr are only needed if you call ocr_marker() / ocr_paddle()
+# in utils.py directly)
+docling
+# marker-pdf
+# paddleocr

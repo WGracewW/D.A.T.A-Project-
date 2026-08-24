@@ -11,7 +11,14 @@ retrieval index, and LangGraph for orchestration.
 
 - **Python 3.10+** (the codebase uses `str | None` style type hints)
 - **Ollama 0.30.9** — see setup below. This exact version matters.
+- **all-MiniLM-L6-v2** - This is the local embedding model, you should download this model from huggingface.
 - A CUDA-capable NVIDIA GPU is recommended but not required.
+
+### Local Embedding Model - all-MiniLM-L6-v2
+Visit the model on HuggingFace: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+You should navigate to 'Files and versions' and download the exact setup (folders included) for the all-MiniLM-L6-v2
+as shown in the depot. After download, copy the entire folder contents to the folder named 'all-MiniLM-L6-v2' in the 
+'embeddings_local' folder, so that D.A.T.A can access it later on.
 
 ### Why Ollama 0.30.9 specifically
 

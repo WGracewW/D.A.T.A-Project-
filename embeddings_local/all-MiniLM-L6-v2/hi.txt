@@ -1,1 +1,1 @@
-
+Place the all-MiniLM-L6-v2 folder contents here. You can get this embedding model from HuggingFace: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 
